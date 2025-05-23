@@ -48,6 +48,8 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    background-color:  rgb(238, 237, 237);
+    padding-bottom: 5%;
 }
 
 .prod-titulo{
@@ -103,11 +105,10 @@ a {
 /*Seccion Formulario*/
 .form-section{ 
     font-family: Rubik, Verdana, Tahoma, sans-serif;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     display: flex;
-    flex-direction: column;
-    border-radius: 8px;
+    flex-direction: column;    
     width:100%;    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -132,6 +133,23 @@ form{
     padding: 10px;
     width: 250px;
 }
+
+.btn-form{
+    background-color: #333;
+    color: white;    
+    border: none;
+    padding: 3% 6%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: smaller;    
+}
+
+.btn-form:hover{
+    background-color: #858484;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.3s;    
+}
 /*Fin Seccion Formulario*/
 
 footer {
@@ -141,6 +159,7 @@ footer {
     text-align: center;
     padding: 1em 0;    
     width: 100%;
+    font-size: smaller;   
 }
 
 /* Medias Querys*/
